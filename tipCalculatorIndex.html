@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aaron's Tip Calculator</title>
+        <link rel="stylesheet" href="tipCalculatorStyling.css">
+        <script src="tipCalculatorJS.js"></script>
+    </head>
+      
+    <body>
+        
+        <div class="pageDiv" id="formContainer">
+            <div class="pageDiv" id="headerContainer">
+                <h1 id="appHeader">Tip Calculator</h1>
+            </div>
+            <div class="pageDiv" id="inputContainer">
+                <form>
+                    <div class="pageDiv" id="userAmountDiv">
+                        <label for="userAmount">How much was your bill?</label><br>
+                        <input type="text" placeholder="Bill amount" id="userAmount" name="userAmount"><br><br>
+                    </div>
+                    <div class="pageDiv" id="numPeopleDiv"></div>
+                        <label for="numPeople">How many people are sharing the bill?</label><br>
+                        <input type="number" placeholder="Amount of people" id="numPeople" name="numPeople"><br><br>
+                    </div>
+                    <div class="pageDiv" id="tipPercentageDiv">
+                        <label for="tipPercentage">How much do you want to tip?</label><br>
+                        <input type="text" placeholder="Enter percentage here" id="tipPercentage" name="tipPercentage"><br><br>
+                    </div>
+                    <div class="pageDiv" id="resultDiv"></div>
+                    <button type="button" value="calculate" onclick="calculateTip()">CALCULATE!</button>
+            
+                </form>
+            </div>
+        </div>
+        
+        
+        
+    </body>
+</html>

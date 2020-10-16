@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to left, #8E0E00, #1F1C18);
+}
+
+button {
+    height: 40px;
+    background-color: lightgreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form {
+    background-color: white;
+    padding: 30px 5px 10px 5px;
+}
+
+#formContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 110px 25% 0 25%;
+    border-radius: 10px;
+}
+
+#headerContainer {
+    background-color: black;
+    color: white;
+}
+
+#resultDiv {
+    background-color: white;
+}
+
+#tipPercentageDiv {
+    background-color: white;
+}
